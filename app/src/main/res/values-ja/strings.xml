@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FancyScreen</string>
     <string name="profile_photo">Photo</string>
@@ -11,4 +12,5 @@
     <string name="supervisorLabel">Supervisor</string>
     <string name="supervisor">supervisorName</string>
     <string name="directReportsLabel">Direct Report</string>
+
 </resources>

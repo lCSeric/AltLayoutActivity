@@ -28,6 +28,7 @@
             android:layout_marginStart="200dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="668dp"
+            android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.38"
@@ -42,7 +43,7 @@
             android:layout_marginStart="384dp"
             android:layout_marginTop="40dp"
             android:paddingTop="8dp"
-            android:text="Email"
+            android:text="@string/emailLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -56,7 +57,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintStart_toEndOf="@+id/emailLabel"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Email Address" />
+            tools:text="@string/email" />
 
         <TextView
             android:id="@+id/extensionLabel"
@@ -65,7 +66,7 @@
             android:layout_marginStart="384dp"
             android:layout_marginTop="40dp"
             android:paddingTop="8dp"
-            android:text="Extension"
+            android:text="@string/extensionLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/emailLabel" />
@@ -79,7 +80,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintStart_toEndOf="@+id/extensionLabel"
             app:layout_constraintTop_toBottomOf="@+id/email"
-            tools:text="Extension" />
+            tools:text="@string/extension" />
 
         <TextView
             android:id="@+id/departmentLabel"
@@ -88,7 +89,7 @@
             android:layout_marginStart="380dp"
             android:layout_marginTop="108dp"
             android:paddingTop="8dp"
-            android:text="Department"
+            android:text="@string/departmentLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/extensionLabel" />
@@ -102,7 +103,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             app:layout_constraintStart_toEndOf="@+id/departmentLabel"
             app:layout_constraintTop_toBottomOf="@+id/extension"
-            tools:text="Department name" />
+            tools:text="@string/department" />
 
         <TextView
             android:id="@+id/supervisorLabel"
@@ -111,7 +112,7 @@
             android:layout_marginStart="380dp"
             android:layout_marginTop="48dp"
             android:paddingTop="8dp"
-            android:text="Supervisor"
+            android:text="@string/supervisorLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/departmentLabel" />
@@ -125,7 +126,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintStart_toEndOf="@+id/supervisorLabel"
             app:layout_constraintTop_toBottomOf="@+id/department"
-            tools:text="Supervisor\'s Name" />
+            tools:text="@string/supervisor" />
 
         <TextView
             android:id="@+id/directReportsLabel"
@@ -134,7 +135,7 @@
             android:layout_marginStart="384dp"
             android:layout_marginTop="80dp"
             android:paddingTop="8dp"
-            android:text="Direct Reports"
+            android:text="@string/directReportsLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/supervisorLabel" />
